@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="myForm">
+        Choose Expenseamount : <input type="text" id="amount" name="amount">
+        Choose Description : <input type="text" id="description" name="description">
+       Choose category <select name="category" id="category">
+            <option value="movie">movie</option>
+            <option value="fuel">fuel</option>
+            <option value="food">food</option>
+            <option value="electricity">electricity</option>
+        </select>
+        <input type="submit" value="addExpence" >
+    </form>
+    <h2>List</h2>
+    <table border="1"> 
+        <thead>
+            <tr>
+                <td>S.No</td>
+                <td>Expenseamount</td>
+                <td>Description</td>
+                <td>Description</td>
+                <td>category</td>
+            </tr>
+        </thead>
+        <tbody id="root">
+
+        </tbody>
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
